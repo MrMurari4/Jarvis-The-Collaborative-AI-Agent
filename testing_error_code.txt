@@ -1,0 +1,6 @@
+# Intentional Bug: wrong variable name
+def greet_user(name):
+    message = f"Hello, {name}!"
+    return mesage  # ❌ Typo: should be 'message'
+
+print(greet_user("Alex"))
